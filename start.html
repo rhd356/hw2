@@ -3,9 +3,51 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            /* General button styling */
+            input[type="file"], input[type="submit"] {
+                padding: 10px 15px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                cursor: pointer;
+                outline: none; 
+            }
+
+            /* Browse button styling*/
+            input[type="file"] {
+                background-color: #f0f0f0;
+                color: black;
+                margin-bottom: 20px;
+            }
+
+            /* browse button hover effect */
+            input[type="file"]:hover {
+                background-color: #e1e1e1;
+                border-color: #bfbfbf;
+            }
+
+            /* Styling for the submit button */
+            input[type="submit"] {
+                background-color: #4043e0;
+                color: black;
+                border: none;
+            }
+
+            /* submit button hover effect */
+            input[type="submit"]:hover {
+                background-color: #2015b8;
+            }
+        </style>
     </head>
     <body>
-        <!-- submit button-->
-      <input type="submit" value="Submit" />
+        <form action="create_data.php" method="post">
+            <!--Browse button to choose file as input-->
+            <input type="file" value="Browse"/>
+            <br />
+
+            <!-- submit button-->
+            <input type="submit" value="Submit" />
+        </form>
     </body>
 </html>
