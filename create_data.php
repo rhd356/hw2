@@ -7,31 +7,36 @@
     <body>
         <?php
         //making an array to store the first names in the file
-            $firstName = file('first_names.csv');
-            echo "First Name";
-            echo '<pre>';
-            print_r($firstName);
+        echo "First Name" //printing header
+        echo '<pre>';
+        //changing csv file into an array
+        $firstName = fopen('first_names.csv','r');
+        while (($line = fgetcsv($firstName)) !== FALSE) {
+            //$line is an array of the csv elements
+            print_r($line);
+            }
+            fclose($firstName);
             echo '</pre>';
         //making an array to store the last names in the file
             $lastName = file('last_names.txt');
-            echo "Last Name";
+            echo "Last Name"; //printing header
             echo '<pre>';
             print_r($lastName);
             echo '</pre>';
         //making an array to store the street names in the file
             $streetName = file('street_names.txt');
-            echo "Street Name";
+            echo "Street Name"; //printing header
             echo '<pre>';
             print_r($streetName);
             echo '</pre>';
         //making an array to store the street type in the file
             $streetType = file('street_types.txt');
-            echo "Street Type";
+            echo "Street Type"; //printing header
             echo '<pre>';
             print_r($lastName);
             echo '</pre>';
         //making an array to store the domain in the file
-            $domainFile = file('domains.txt');
+            $domainFile = file('domains.txt'); //printing header
             echo "Domain";
             echo '<pre>';
             print_r($domainFile);
