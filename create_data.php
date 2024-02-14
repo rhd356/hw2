@@ -7,16 +7,16 @@
     <body>
         <?php
         //making an array to store the first names in the file
-        echo "First Name" //printing header
-        echo '<pre>';
-        //changing csv file into an array
-        $firstName = fopen('first_names.csv','r');
-        while (($line = fgetcsv($firstName)) !== FALSE) {
-            //$line is an array of the csv elements
-            print_r($line);
-            }
-            fclose($firstName);
-            echo '</pre>';
+            echo "First Name" //printing header
+            echo '<pre>';
+            //changing csv file into an array
+            $firstName = fopen('first_names.csv','r');
+            while (($line = fgetcsv($firstName)) !== FALSE) {
+                //$line is an array of the csv elements
+                print_r($line);
+                }
+                fclose($firstName);
+                echo '</pre>';
         //making an array to store the last names in the file
             $lastName = file('last_names.txt');
             echo "Last Name"; //printing header
@@ -36,15 +36,11 @@
             print_r($lastName);
             echo '</pre>';
         //making an array to store the domain in the file
-            $domainFile = file('domains.txt'); //printing header
-            echo "Domain";
+            $domainFile = file('domains.txt'); 
+            echo "Domain"; //printing header
             echo '<pre>';
             print_r($domainFile);
             echo '</pre>';
-        //domain field
-        //
-
-        //storing fields as arrays
 
             ?>
 
