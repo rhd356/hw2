@@ -1,27 +1,30 @@
-David:McAlister:823 Imus Manor:h.mcalister@gmail.com
-David:McCarter:692 Isesaki Avenue:h.mccarter@facebook.com
-David:Duggan:711 Toulan Parkway:h.duggan@utc.edu
-David:Vest:219 Kabul Loop:h.vest@chattstate.edu
-David:McCarter:200 Antofagasta Lane:h.mccarter@gmail.com
-David:Cromwell:317 Idfu Manor:h.cromwell@utc.edu
-David:Chisholm:827 Botshebelo Lane:h.chisholm@google.com
+Amanada:Banda:640 Lillydale Avenue:amanada.banda@exchange.com
+James:Vest:301 Kabul Avenue:james.vest@google.com
 
-David:Grey:332 Iligan Parkway:h.grey@gmail.com
-David:Lumpkin:635 Joliet Boulevard:h.lumpkin@utc.edu
-David:Hannon:87 Lillydale Drive:h.hannon@utc.edu
-David:Grey:221 Inegl Drive:h.grey@hotmail.com
-David:Swanson:569 Kabul Way:h.swanson@google.com
+Patricia:Pitt:400 Munger Parkway:patricia.pitt@exchange.com
+Roger:Vest:28 Idfu Way:roger.vest@hotmail.com
+Erin:Shoemaker:965 Iligan Avenue:erin.shoemaker@utc.edu
+Jessee:Wofford:117 Bisling Loop:jessee.wofford@gmail.com
+Robert:Gafney:40 Munger Avenue:robert.gafney@yahoo.com
+Patricia:Duggan:326 Botshebelo Avenue:patricia.duggan@hotmail.com
+Roger:Chisholm:570 Okara Street:roger.chisholm@google.com
 
-David:Vest:970 Aurora Avenue:h.vest@yahoo.com
-David:Chisholm:905 Inegl Way:h.chisholm@facebook.com
-David:Banda:154 Antofagasta Way:h.banda@hotmail.com
-David:Banda:537 Duisberg Loop:h.banda@utc.edu
-David:Burleson:428 Antofagasta Way:h.burleson@chattstate.edu
-David:Grey:127 Botshebelo Avenue:h.grey@hotmail.com
-David:McCarter:514 Hidalgo Circle:h.mccarter@gmail.com
-David:Eggleston:381 Loja Way:h.eggleston@yahoo.com
-David:Smith:801 Workhaven Boulevard:h.smith@facebook.com
-David:Oglesby:929 Korolev Avenue:h.oglesby@chattstate.edu
-David:Gardiner:799 Loja Manor:h.gardiner@exchange.com
-David:Duggan:786 Hidalgo Parkway:h.duggan@hotmail.com
-David:Lombardi:684 Hidalgo Circle:h.lombardi@utc.edu
+James:Gafney:122 Halifax Manor:james.gafney@yahoo.com
+David:Vest:44 Imus Avenue:david.vest@facebook.com
+Samantha:Oglesby:785 Fukuyama Loop:samantha.oglesby@google.com
+
+Holly:Cromwell:936 Munger Loop:holly.cromwell@google.com
+
+Joseph:Smith:175 Hanoi Parkway:joseph.smith@gmail.com
+Claire:Duggan:308 Imus Manor:claire.duggan@facebook.com
+Craig:Wofford:913 Kowloon Boulevard:craig.wofford@hotmail.com
+Samantha:Larue:222 Kowloon Loop:samantha.larue@exchange.com
+Sharon:Duggan:713 Botshebelo Drive:sharon.duggan@yahoo.com
+Sally:McCarter:828 Munger Lane:sally.mccarter@utc.edu
+Jean:Shoemaker:523 Kabul Circle:jean.shoemaker@gmail.com
+Raymond:Chisholm:900 Loja Drive:raymond.chisholm@utc.edu
+Sharon:Lumpkin:502 Alleppey Street:sharon.lumpkin@hotmail.com
+Claire:Gruber:350 Botshebelo Way:claire.gruber@facebook.com
+Craig:Pitt:241 Joliet Parkway:craig.pitt@utc.edu
+Craig:Lumpkin:407 Hanoi Circle:craig.lumpkin@google.com
+

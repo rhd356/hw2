@@ -12,10 +12,10 @@
     //changing csv file into an array
     $firstNames = [];
     $firstNameFile = fopen('first_names.csv','r',);
-    while (($line = fgetcsv($firstNameFile)) !== FALSE) {
+    while (($line = fgetcsv($firstNameFile, 0, ",")) !== FALSE) {
         //$line is an array of the csv elements
-        $firstNames[] = $line[0];
         print_r($line);
+        $firstNames = $line;
         }
         fclose($firstNameFile);
         echo '</pre>';
