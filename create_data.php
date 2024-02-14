@@ -118,8 +118,6 @@
                 'email' => strtolower($firstNames[$firstNameKey] . '.' . $lastName[$lastNameKey] . '@' . $combinedDomains[$domainKey]),
                 'address' => rand(1, 999) . ' ' . $streetNameArray[$streetNameKey] . ' ' . $streetTypesArray[$streetTypeKey]
             ];
-    } else {
-        $i--; // removes entries and retries with new combo
     }
 }
 
