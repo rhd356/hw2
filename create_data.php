@@ -6,8 +6,8 @@
     </head>
     <body>
         <?php
-            //making an array to store the first names in the file
-            $firstName = file('first_names.cvs');
+        //making an array to store the first names in the file
+            $firstName = file('first_names.csv');
             echo "First Name";
             echo '<pre>';
             print_r($firstName);
@@ -31,7 +31,7 @@
             print_r($lastName);
             echo '</pre>';
         //making an array to store the domain in the file
-            $domainFile = file('domain.txt');
+            $domainFile = file('domains.txt');
             echo "Domain";
             echo '<pre>';
             print_r($domainFile);
@@ -39,7 +39,9 @@
         //domain field
         //
 
+        //storing fields as arrays
 
-        ?>
+            ?>
+
     </body>
 </html>
