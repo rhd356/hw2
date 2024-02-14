@@ -10,12 +10,14 @@
     echo "First Name"; //printing header
     echo '<pre>';
     //changing csv file into an array
-    $firstName = fopen('first_names.csv','r',);
-    while (($line = fgetcsv($firstName)) !== FALSE) {
+    $firstNames = [];
+    $firstNameFile = fopen('first_names.csv','r',);
+    while (($line = fgetcsv($firstNameFile)) !== FALSE) {
         //$line is an array of the csv elements
+        $firstNames[] = $line[0];
         print_r($line);
         }
-        fclose($firstName);
+        fclose($firstNameFile);
         echo '</pre>';
 
 //making an array to store the last names in the file
@@ -98,6 +100,44 @@
     print_r($combinedDomains);
     echo '</pre>';
 
-?>
+    // randomizes arrays and generates 25 entries
+    $customers = [];
+    for ($i = 0; $i < 25; $i++) {
+        $firstNameKey = array_rand($firstNames);
+        $lastNameKey = array_rand($lastName);
+        $domainKey = array_rand($combinedDomains);
+        $streetNameKey = array_rand($streetNameArray);
+        $streetTypeKey = array_rand($streetTypesArray);
+
+    // ensures that all entries are unique
+        $uniqueIdentifier = $firstNameKey . $lastNameKey . $streetNameKey;
+        if (!array_key_exists($uniqueIdentifier, $customers)) {
+            $customers[$uniqueIdentifier] = [
+                'firstName' => $firstNames[$firstNameKey],
+                'lastName' => $lastName[$lastNameKey],
+                'email' => strtolower($firstNames[$firstNameKey] . '.' . $lastName[$lastNameKey] . '@' . $combinedDomains[$domainKey]),
+                'address' => rand(1, 999) . ' ' . $streetNameArray[$streetNameKey] . ' ' . $streetTypesArray[$streetTypeKey]
+            ];
+    } else {
+        $i--; // removes entries and retries with new combo
+    }
+}
+
+    // Creates a table to display customer data in create_data.php page
+    echo "<table border='1'><tr><th>First Name</th><th>Last Name</th><th>Address</th><th>Email</th></tr>";
+
+    foreach ($customers as $customer) {
+        echo "<tr><td>{$customer['firstName']}</td><td>{$customer['lastName']}</td><td>{$customer['address']}</td><td>{$customer['email']}</td></tr>";
+}
+    echo "</table>";
+
+    // Write customers to a file called "customer_data.txt"
+    $fileHandle = fopen("customer_data.txt", "w");
+    foreach ($customers as $customer) {
+        $lineToWrite = "{$customer['firstName']}:{$customer['lastName']}:{$customer['address']}:{$customer['email']}\n";
+        fwrite($fileHandle, $lineToWrite);
+}
+    fclose($fileHandle);
+    ?>
 </body>
 </html>

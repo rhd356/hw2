@@ -1,0 +1,26 @@
+David:Smith:455 Inegl Drive:david.smith@facebook.com
+David:McCarter:394 Amroha Loop:david.mccarter@hotmail.com
+David:Larue:897 Okara Manor:david.larue@chattstate.edu
+David:Gruber:665 Halifax Circle:david.gruber@exchange.com
+David:Grey:952 Okara Lane:david.grey@yahoo.com
+David:Smith:280 Lancaster Way:david.smith@chattstate.edu
+David:Hannon:861 Inegl Circle:david.hannon@gmail.com
+David:Smith:194 Amroha Street:david.smith@yahoo.com
+David:Eggleston:659 Brest Boulevard:david.eggleston@gmail.com
+David:Oglesby:490 Anapolis Avenue:david.oglesby@gmail.com
+David:Duggan:109 Amroha Lane:david.duggan@chattstate.edu
+David:Lumpkin:225 Alleppey Circle:david.lumpkin@google.com
+
+David:Larue:343 Antofagasta Drive:david.larue@hotmail.com
+David:Hannon:905 Hanoi Street:david.hannon@gmail.com
+David:Cromwell:622 Tama Boulevard:david.cromwell@chattstate.edu
+David:Wofford:52 Halifax Manor:david.wofford@hotmail.com
+David:Pitt:263 Inegl Parkway:david.pitt@utc.edu
+David:Swanson:903 Isesaki Parkway:david.swanson@hotmail.com
+David:Vest:756 Kabul Parkway:david.vest@utc.edu
+David:Swanson:74 Izumisano Boulevard:david.swanson@chattstate.edu
+David:Pitt:187 Hino Avenue:david.pitt@yahoo.com
+David:McAlister:433 Cam Ranh Loop:david.mcalister@utc.edu
+David:Larue:373 Mandaluyong Loop:david.larue@yahoo.com
+David:Swanson:982 Mandaluyong Parkway:david.swanson@chattstate.edu
+David:Gunderson:863 Hino Boulevard:david.gunderson@utc.edu
