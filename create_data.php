@@ -122,14 +122,14 @@
     }
 }
 
-    // Creates a table to display customer data in create_data.php page
+    // Creates a table to display customer data in create_data.php page and writes records created from $customers
     echo "<table border='1'><tr><th>First Name</th><th>Last Name</th><th>Address</th><th>Email</th></tr>";
     foreach ($customers as $customer) {
         echo "<tr><td>{$customer['firstName']}</td><td>{$customer['lastName']}</td><td>{$customer['address']}</td><td>{$customer['email']}</td></tr>";
     }
     echo "</table>";
 
-    // Write customers to a file called "txt.txt"
+    // Write customers to a file called "txt.txt", if file does not exist, it will create it, write to it, then close it.
     $fileHandle = fopen("txt.txt", "w");
     foreach ($customers as $customer) {
         $lineToWrite = "{$customer['firstName']}:{$customer['lastName']}:{$customer['address']}:{$customer['email']}\n";
