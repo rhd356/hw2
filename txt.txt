@@ -1,0 +1,27 @@
+Samantha:Lumpkin:100 Anapolis Lane:samantha.lumpkin@facebook.com
+Joseph:Banda:802 Aurora Parkway:joseph.banda@exchange.com
+Samantha:Shoemaker:478 Santiago Manor:samantha.shoemaker@exchange.com
+Roger:Hannon:283 Idfu Lane:roger.hannon@chattstate.edu
+Scott:Larue:389 Korolev Way:scott.larue@facebook.com
+Claire:Oglesby:234 Anapolis Loop:claire.oglesby@yahoo.com
+Erin:McCarter:720 Munger Avenue:erin.mccarter@google.com
+
+Amanada:Lombardi:44 Fukuyama Circle:amanada.lombardi@exchange.com
+Holly:Gunderson:476 Tama Avenue:holly.gunderson@yahoo.com
+Craig:Pitt:290 Kowloon Street:craig.pitt@yahoo.com
+Joseph:Gruber:818 Halifax Way:joseph.gruber@facebook.com
+Amanada:Gunderson:922 Idfu Boulevard:amanada.gunderson@chattstate.edu
+Robert:Smith:650 Imus Way:robert.smith@google.com
+
+Chris:Duggan:621 Idfu Way:chris.duggan@exchange.com
+Jean:Hannon:804 Hino Avenue:jean.hannon@exchange.com
+Craig:Smith:35 Lancaster Loop:craig.smith@hotmail.com
+Fred:Vest:207 Kabul Lane:fred.vest@chattstate.edu
+Craig:Chisholm:158 Lancaster Circle:craig.chisholm@chattstate.edu
+Patricia:Gardiner:811 Korolev Lane:patricia.gardiner@gmail.com
+Allison:Cromwell:794 Bisling Avenue:allison.cromwell@hotmail.com
+Erin:Gruber:894 Workhaven Lane:erin.gruber@chattstate.edu
+Sally:Lumpkin:946 Purnia Loop:sally.lumpkin@gmail.com
+Roger:Eggleston:800 Iligan Street:roger.eggleston@chattstate.edu
+Joseph:Shoemaker:560 Isesaki Manor:joseph.shoemaker@facebook.com
+Alicia:Cromwell:901 Duisberg Parkway:alicia.cromwell@facebook.com

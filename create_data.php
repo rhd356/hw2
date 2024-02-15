@@ -129,8 +129,8 @@
     }
     echo "</table>";
 
-    // Write customers to a file called "customer_data.txt"
-    $fileHandle = fopen("customer_data.txt", "w");
+    // Write customers to a file called "txt.txt"
+    $fileHandle = fopen("txt.txt", "w");
     foreach ($customers as $customer) {
         $lineToWrite = "{$customer['firstName']}:{$customer['lastName']}:{$customer['address']}:{$customer['email']}\n";
         fwrite($fileHandle, $lineToWrite);
