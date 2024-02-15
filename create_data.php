@@ -109,8 +109,9 @@
         $streetNameKey = array_rand($streetNameArray);
         $streetTypeKey = array_rand($streetTypesArray);
 
-    // ensures that all entries are unique
+        // combines first name, last name and street name from the randomized array
         $uniqueIdentifier = $firstNameKey . $lastNameKey . $streetNameKey;
+        // ensures that all entries are unique and concatenates email entries based on names. Adds house number to address, random number from 1 to 999
         if (!array_key_exists($uniqueIdentifier, $customers)) {
             $customers[$uniqueIdentifier] = [
                 'firstName' => $firstNames[$firstNameKey],
@@ -123,10 +124,9 @@
 
     // Creates a table to display customer data in create_data.php page
     echo "<table border='1'><tr><th>First Name</th><th>Last Name</th><th>Address</th><th>Email</th></tr>";
-
     foreach ($customers as $customer) {
         echo "<tr><td>{$customer['firstName']}</td><td>{$customer['lastName']}</td><td>{$customer['address']}</td><td>{$customer['email']}</td></tr>";
-}
+    }
     echo "</table>";
 
     // Write customers to a file called "customer_data.txt"
@@ -134,7 +134,7 @@
     foreach ($customers as $customer) {
         $lineToWrite = "{$customer['firstName']}:{$customer['lastName']}:{$customer['address']}:{$customer['email']}\n";
         fwrite($fileHandle, $lineToWrite);
-}
+    }
     fclose($fileHandle);
     ?>
 </body>
